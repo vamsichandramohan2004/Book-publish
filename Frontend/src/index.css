@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles for a more professional look */
+body {
+  background: linear-gradient(to top left, #e3f2fd, #bbdefb);
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: #334155;
+  line-height: 1.6;
+}
+/* Optional: Add a font import in your public/index.html or main.jsx if you're using React with Vite/Webpack */
+/* Example for main.jsx (if you want to import via JS): */
+/*
+  // In main.jsx, add this before ReactDOM.createRoot
+  import '@fontsource/inter'; // Install: npm install @fontsource/inter
+*/
+/* Or, for a simple approach, add this to your public/index.html's <head> section: */
+/*
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+*/
+
+/* Custom Scrollbar (optional, but adds a professional touch) */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f0f4f8;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
