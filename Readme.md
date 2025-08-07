@@ -1,4 +1,4 @@
-# Book Publishing Website
+# BookNest
 
 A full-featured web application for managing books with CRUD (Create, Read, Update, Delete) operations, search, filtering, and multiple view modes (table and card).
 
